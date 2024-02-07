@@ -58,9 +58,6 @@ p,li {
                   preparedStmt.setString (1, id);
                   // execute the preparedstatement
                   preparedStmt.execute();
-                	      
-                	    
-//                  int i=st.executeUpdate("insert into comm values('"+id+"','"+name+"','"+prepTime);
                  out.println("<h1 color='red'><center>購買商品刪除!</center></h1>");
                  conn.close();
                }
